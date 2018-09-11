@@ -1,0 +1,37 @@
+{
+  
+  "development2": {
+    "database": "XE",
+    "username": "system",
+    "password": "Newpass123",
+    "host":     "172.0.0.1",
+    "port":     "1521",
+    "pool":     {
+      "maxConnections": 5,
+      "maxIdleTime":    3000
+    },
+    "dialect": "oracle",
+    "logging": "console.log"
+  },
+  "development": {
+    "username": "system",
+    "password": "Newpass123",
+    "database": "xe",
+    "host": "localhost",
+    "dialect": "oracle"
+  },
+  "test": {
+    "username": "system",
+    "password": "Newpass123",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "oracle"
+  },
+  "production": {
+    "username": "system",
+    "password": "Newpass123",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "oracle"
+  }
+}
