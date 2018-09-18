@@ -5,20 +5,26 @@ import logger from "../../helpers/logger"
 
 let Topic = models.topic
 let Sequelize = models.Sequelize
-
-
-module.exports = {
+let sequelize = models.sequelize
+let utils = {
     list: function () {
-        logger.log({
-            level: 'info',
-            message: 'Hello distributed log files!'
-          });
+        // logger.log({
+        //     level: 'info',
+        //     message: 'Hello distributed log files!'
+        //   });
         return new Promise(function (resolve, reject) {
-            Topic.findAll().then(data => {
+           
+          
+           utils.getTopicsTree().then(data => {
                 resolve(data)
             }).catch(error => {
                 reject(err)
             })
+            // Topic.findAll().then(data => {
+            //     resolve(data)
+            // }).catch(error => {
+            //     reject(err)
+            // })
         })
     },
     createBlk: function (topicList) {
@@ -107,6 +113,26 @@ module.exports = {
         })
 
     },
+    getTopicsTree : function(rootId){
+       
+        let query =`
+        SELECT
+            system.cm_topics.*
+        FROM
+            system.cm_topics left
+            JOIN system.cm_topics cm_topics1 ON system.cm_topics."id" = cm_topics1."parent_id"
+        WHERE
+            system.cm_topics."id" in (select "id" from system.cm_topics)
+        `
+       
+        sequelize.query(query,{model:Topic})
+            .then(list => {
+                console.log(list)
+
+                debugger;
+                // We don't need spread here, since only the results will be returned for select queries
+            })
+    }
 
     // api.get("/list",topicsHandler.list)
     // api.post("/createBlk",topicsHandler.createBlk)
@@ -131,3 +157,5 @@ module.exports = {
     // find: function (args) { },
     // list: function () { }
 }
+
+module.exports = utils
