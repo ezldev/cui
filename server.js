@@ -5,10 +5,23 @@ import api from './app/routes.js';
 import swaggerUi from 'swagger-ui-express'
 import swaggerJSDoc from 'swagger-jsdoc'
 import glob from 'glob'
+//import expressStatsd from 'express-statsd'
+//import logger from 'helpers/logger.js'
 // import GraphHTTP from 'express-graphql';
 // import Schema from './graphql';
 
+// function statsd (path) {
+//     return function (req, res, next) {
+//       var method = req.method || 'unknown_method';
+//       req.statsdKey = ['http', method.toLowerCase(), path].join('.');
+//       next();
+//     };
+//   }
+
 var app = express();
+//app.use(expressStatsd());
+
+
 var router = express.Router();
 
 function startApp(port) {

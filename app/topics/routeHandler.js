@@ -22,17 +22,18 @@ module.exports = {
         })
         
     },
-    updateBlk: function (req, res, next) {
+    update: function (req, res, next) {
        // req.body.topics=[]
-       topicUtils.updateBlk(req.body.topics).then(function(data){
+       topicUtils.update(req.body).then(function(data){
             res.send(data) 
         },function(err){
             res.send(err) 
         })
     },
-    deleteByIdBlk: function (req, res, next) {
+    deleteById: function (req, res, next) {
         // req.body=[] list of ids
-        topicUtils.deleteByIdBlk(req.body).then(function(data){
+        
+        topicUtils.deleteById(req.body.id).then(function(data){
              res.send(data) 
          },function(err){
              res.send(err) 
@@ -40,7 +41,7 @@ module.exports = {
      },
      findById: function (req, res, next) {
         // req.body=[] list of ids
-        topicUtils.findById(req.body).then(function(data){
+        topicUtils.findById(req.body.id).then(function(data){
              res.send(data) 
          },function(err){
              res.send(err) 

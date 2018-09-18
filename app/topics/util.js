@@ -1,47 +1,90 @@
 import models from '../../models/index.js';
 import Promise from "promise"
+import uuidv4 from "uuid/v4"
+import logger from "../../helpers/logger"
 
 let Topic = models.topic
+let Sequelize = models.Sequelize
+
 
 module.exports = {
+    list: function () {
+        logger.log({
+            level: 'info',
+            message: 'Hello distributed log files!'
+          });
+        return new Promise(function (resolve, reject) {
+            Topic.findAll().then(data => {
+                resolve(data)
+            }).catch(error => {
+                reject(err)
+            })
+        })
+    },
     createBlk: function (topicList) {
         return new Promise(function (resolve, reject) {
+            topicList.forEach(function (item) {
+                item.id = uuidv4()
+            })
             Topic.bulkCreate(topicList)
                 .then(anotherTask => {
                     resolve(Topic.findAll())
                 })
                 .catch(error => {
-                    reject(err)
+                    reject(error)
                 })
         })
-       
     },
-    updateBlk: function (topicList) {
+    update: function (topic) {
         return new Promise(function (resolve, reject) {
-            Topic.bulkUpdate(topicList)
-                .then(anotherTask => {
-                    resolve(Topic.findAll())
-                })
-                .catch(error => {
-                    reject(err)
-                })
+            Topic.findOne({ where: { id: topic.id } }).then(rec => {
+                rec.label = topic.label
+                rec.save()
+                    .then(anotherTask => {
+                        resolve(Topic.findAll())
+                    })
+                    .catch(error => {
+                        reject(err)
+                    })
+            })
+
         })
-       
+
     },
-    deleteByIdBlk: function (list) {
+    deleteById: function (id) {
         return new Promise(function (resolve, reject) {
-            Topic.bulkUpdate(topicList)
-                .then(anotherTask => {
-                    resolve(Topic.findAll())
-                })
-                .catch(error => {
-                    reject(err)
-                })
+           
+            // Topic.bulkUpdate(topicList)
+            Topic.findOne({ where: { id: id } }).then(rec => { 
+                if(rec){
+                rec.destroy()
+                    .then(anotherTask => {
+                        resolve(Topic.findAll())
+                    })
+                    .catch(error => {
+                        reject(err)
+                    })
+                }else{
+                    reject("record does not exist")
+                }
+
+            },err=>{
+                reject(err)
+            })
+
         })
-       
+
     },
     findById: function (id) {
         return new Promise(function (resolve, reject) {
+           
+            Topic.findOne({ where: { id: id } }).then(rec => { 
+                resolve(rec)
+
+            },err=>{
+                reject(err)
+            })
+           
             // Topic.bulkUpdate(topicList)
             //     .then(anotherTask => {
             //         resolve(Topic.findAll())
@@ -50,7 +93,7 @@ module.exports = {
             //         reject(err)
             //     })
         })
-       
+
     },
     detailsById: function (id) {
         return new Promise(function (resolve, reject) {
@@ -62,15 +105,15 @@ module.exports = {
             //         reject(err)
             //     })
         })
-       
+
     },
 
     // api.get("/list",topicsHandler.list)
-// api.post("/createBlk",topicsHandler.createBlk)
-// api.post("/deleteByIdBlk",topicsHandler.deleteBlk)
-// api.post("/findById",topicsHandler.findById)
-// api.post("/updateBlk",topicsHandler.updateBlk)
-// api.get("/details/:id",topicsHandler.detailsById)
+    // api.post("/createBlk",topicsHandler.createBlk)
+    // api.post("/deleteByIdBlk",topicsHandler.deleteBlk)
+    // api.post("/findById",topicsHandler.findById)
+    // api.post("/updateBlk",topicsHandler.updateBlk)
+    // api.get("/details/:id",topicsHandler.detailsById)
 
 
     // update: function (topic) { 

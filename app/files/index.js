@@ -6,9 +6,9 @@ import filesHandler from "./filesHandler";
 var api = express.Router();
 
 api.get("/list",filesHandler.list)
-api.post("/create",filesHandler.create)
-api.post("/delete",filesHandler.delete)
-api.post("/find",filesHandler.find)
-
+api.post("/createBlk",filesHandler.createBlk)
+api.post("/update",filesHandler.update)
+api.post("/deleteById",filesHandler.deleteById)
+api.post("/findById",filesHandler.findById)
 
 module.exports = api
