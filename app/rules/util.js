@@ -1,7 +1,7 @@
 import models from '../../models/index.js';
 import Promise from "promise"
 import uuidv4 from "uuid/v4"
-import logger from "../../helpers/logger"
+import logger from "../../helpers/logger.js"
 
 let Rule = models.rule
 let Sequelize = models.Sequelize
@@ -38,6 +38,8 @@ module.exports = {
     update: function (rule) {
         return new Promise(function (resolve, reject) {
             Rule.findOne({ where: { id: rule.id } }).then(rec => {
+                rec.name = rule.name
+                rec.configuration = rule.configuration
                 //rec.label = rule.label
                 rec.save()
                     .then(anotherTask => {

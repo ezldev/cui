@@ -13,7 +13,7 @@ module.exports = function(sequelize, DataTypes) {
             }
         },
         configuration: {
-            type: DataTypes.STRING,
+            type: DataTypes.TEXT,
             allowNull: false,
             validate: {
                 notEmpty: true
@@ -27,7 +27,12 @@ module.exports = function(sequelize, DataTypes) {
     });
 
     rule.associate = function(models) {
-        models.rule.belongsTo(models.topic)
+        //User.belongsToMany(Project, { through: UserProject });
+        // models.rule.belongsToMany(models.topic, {
+        //     through: 'ruleTopic',
+        //     as: 'rules',
+        //     foreignKey: 'ruleId'
+        // })
         // models.rule.belongsTo(models.topic, { foreignKey: "topic_id", targetKey: "id" });
     }
 

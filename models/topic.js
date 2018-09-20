@@ -40,13 +40,16 @@ module.exports = function(sequelize, DataTypes) {
         models.topic.hasMany(models.file,{
             as :"files"
         });
-        models.topic.hasMany(models.rule,{
-            as :"rules"
-        })
+       
         models.topic.hasOne(models.topic,{
             as: 'parent',
             foreignKey: "parent_id"
         })
+        // models.topic.belongsToMany(models.rule, {
+        //     through: 'ruleTopic',
+        //     as: 'topic',
+        //     foreignKey: 'topicId'
+        // })
     }
     
     return topic;

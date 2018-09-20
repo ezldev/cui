@@ -23,7 +23,11 @@ var app = express();
 
 
 var router = express.Router();
-
+app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+  });
 function startApp(port) {
     app.listen(port, function() {
         console.log('Server is listening on port ' + port);
@@ -61,7 +65,10 @@ const options = {
   app.get('/api-docs.json', function(req, res) {
     res.setHeader('Content-Type', 'application/json');
     res.send(swaggerSpec);
-  });  
+  }); 
+
+  //app.use(express.static(__dirname + 'testHarness'));
+  app.use('/testHarness', express.static('testHarness')); 
 /*
  * This is here because of authentication. Auth middleware decodes the JWT token
  * and saves its content to request.user object.

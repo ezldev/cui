@@ -1,33 +1,59 @@
 
-var multer  = require('multer')
-var upload = multer({ dest: 'uploads/' })
-var cpUpload = upload.fields([{ name: 'avatar', maxCount: 1 }, { name: 'gallery', maxCount: 8 }])
+
 
 
 import models from '../../models/index.js';
 import fileUtils from './util'
 
+var multer  = require('multer')
+var storageM = multer.memoryStorage();
+    var upload = multer({ 
+    storage: storage
+});
+
+var storage = multer.diskStorage({
+    destination: function (req, file, cb) {
+      cb(null, 'uploads/')
+    },
+    filename: function (req, file, cb) {
+        console.log(file)
+        cb(null, file.fieldname + '-' + Date.now())
+    }
+  })
+//var upload = multer( { storage: storage })
+var upload = multer({ storage: storageM })
+var cpUpload = upload.fields([{ name: 'topicId' },{ name: 'file' }])
+//var cpUpload = multer()
+
+
+
 let File = models.file
 module.exports = {
-    list:  function (req, res, next) {
-        fileUtils.list().then(function(data){
+    listByTopic:  function (req, res, next) {
+        fileUtils.listByTopic(req.body.id).then(function(data){
             res.send(data) 
         },function(err){
             res.send(err) 
         })
         
     },
-    createBlk:  function (req, res, next) {
-        //console.log(req.body);
-        //expects req.body.topics=[]
+
+    upload : function (req, res, next) {
         
-        fileUtils.createBlk(req.body.file).then(function(data){
-            res.send(data) 
-        },function(err){
-            res.send(err) 
+        var upload = multer({
+            storage: multer.memoryStorage()
+        }).single('file')
+        upload(req, res, function(err) {
+            //var buffer = req.file.buffer
+            console.log(req.files)
         })
-        
-    },
+        res.send("done") 
+
+       
+       
+        // req.files is an object (String -> Array) where fieldname is the key, and the value is array of files
+      },
+    
     update: function (req, res, next) {
        // req.body.topics=[]
        fileUtils.update(req.body).then(function(data){
@@ -36,6 +62,15 @@ module.exports = {
             res.send(err) 
         })
     },
+    download: function (req, res, next) {
+        // req.body.topics=[]
+        fileUtils.update(req.body).then(function(data){
+            //set header
+            res.send(data) 
+         },function(err){
+             res.send(err) 
+         })
+     },
     deleteById: function (req, res, next) {
         // req.body=[] list of ids
         

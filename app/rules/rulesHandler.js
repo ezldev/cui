@@ -15,7 +15,7 @@ module.exports = {
         //console.log(req.body);
         //expects req.body.topics=[]
         
-        ruleUtils.createBlk(req.body.rule).then(function(data){
+        ruleUtils.createBlk(req.body.rules).then(function(data){
             res.send(data) 
         },function(err){
             res.send(err) 

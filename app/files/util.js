@@ -8,13 +8,18 @@ let Sequelize = models.Sequelize
 
 
 module.exports = {
-    list: function () {
-        logger.log({
-            level: 'info',
-            message: 'Hello distributed log files!'
-          });
+    listByTopic: function (id) {
+        // logger.log({
+        //     level: 'info',
+        //     message: 'Hello distributed log files!'
+        //   });
         return new Promise(function (resolve, reject) {
-            File.findAll().then(data => {
+            
+            File.findAll({
+                where: {
+                  topicId: id
+                }
+              }).then(data => {
                 resolve(data)
             }).catch(error => {
                 reject(err)

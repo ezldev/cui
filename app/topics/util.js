@@ -15,16 +15,25 @@ let utils = {
         return new Promise(function (resolve, reject) {
            
           
-           utils.getTopicsTree().then(data => {
+        //    utils.getTopicsTree().then(data => {
+        //         resolve(data)
+        //     }).catch(error => {
+        //         reject(err)
+        //     })
+            Topic.findAll({
+                include: [{
+                    model: models.rule,
+                    as: 'rules',
+                    required: false,
+                    through: { attributes: [] }
+                }]
+              }
+             
+            ).then(data => {
                 resolve(data)
             }).catch(error => {
-                reject(err)
+                reject(error)
             })
-            // Topic.findAll().then(data => {
-            //     resolve(data)
-            // }).catch(error => {
-            //     reject(err)
-            // })
         })
     },
     createBlk: function (topicList) {
