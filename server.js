@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import models from './models/index.js';
+import dbHelper from "./helpers/dbConnector"
 import api from './app/routes.js';
 import swaggerUi from 'swagger-ui-express'
 import swaggerJSDoc from 'swagger-jsdoc'
@@ -33,14 +33,21 @@ function startApp(port) {
         console.log('Server is listening on port ' + port);
     });
 }
+
+
+dbHelper.getPoolReady().then(function(){
+  startApp(8088);
+},function(err){
+  throw new Error(err);
+})
 //startApp(8088);
-models.sequelize.sync()
-    .then(function() {
-        startApp(8088);
-    })
-    .catch(function (e) {
-        throw new Error(e);
-    });
+// models.sequelize.sync()
+//     .then(function() {
+//         startApp(8088);
+//     })
+//     .catch(function (e) {
+//         throw new Error(e);
+//     });
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -79,3 +86,7 @@ const options = {
 //         pretty: true,
 //         graphiql: true
 // })));
+
+
+
+
