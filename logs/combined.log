@@ -30,3 +30,348 @@
 {"level":"info","message":"drop table \"SYSTEM\".\"CM_GROUPTOPIC\""}
 {"level":"info","message":"drop table \"SYSTEM\".\"CM_GROUPS\""}
 {"level":"info","message":"drop table \"SYSTEM\".\"CM_RULETOPIC\""}
+{"level":"info","message":"Select * from CM_TOPICs"}
+{"level":"info"}
+{"level":"info"}
+{"level":"info"}
+{"level":"info"}
+{"level":"info"}
+{"level":"info"}
+{"level":"info"}
+{"level":"info"}
+{"level":"info","message":"\nSelect * form CM_TOPIC;\n"}
+{"level":"info","message":"\nSelect * form CM_TOPIC;\n"}
+{"level":"info","message":"\nSelect * form CM_TOPICS;\n"}
+{"level":"info","message":"\nSelect * form CM_TOPICS;\n"}
+{"level":"info","message":"\nSelect * form CM_TOPICS;\n"}
+{"level":"info","message":"\nSelect * form CM_TOPICS;\n"}
+{"level":"info","message":"\nSelect * form CM_TOPICS;\n"}
+{"level":"info","message":"\nSelect * form CM_TOPICS;\n"}
+{"level":"info","message":"\nSelect * form CM_TOPICS;\n"}
+{"level":"info","message":"\nSelect * from CM_TOPICS;\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\";\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from \"CM_TOPICS\"\n"}
+{"level":"info","message":"\nSelect * from help\n"}
+{"level":"info","message":"\nSelect * from help\n"}
+{"level":"info","message":"\nSelect * from help\n"}
+{"level":"info","message":"\nSelect * from help\n"}
+{"level":"info","message":"\nSelect * from help\n"}
+{"level":"info","message":"\nSelect * from help\n"}
+{"level":"info","message":"\nSelect * from help\n"}
+{"level":"info","message":"\nSelect * from help\n"}
+{"level":"info","message":"\nSelect * from help\n"}
+{"level":"info","message":"\nSelect * from help\n"}
+{"level":"info","message":"\nSelect * from help\n"}
+{"level":"info","message":"\nSelect * from help\n"}
+{"level":"info","message":"\nSelect * from help\n"}
+{"level":"info","message":"\nSelect * from help\n"}
+{"level":"info","message":"\nSelect * from help\n"}
+{"level":"info","message":"\nSelect * from help\n"}
+{"level":"info","message":"\nSelect * from help\n"}
+{"level":"info","message":"insert all into HNI_TOPICS(TOPIC_ID,TOPIC_NAME) values ('t11','topic 11')into HNI_TOPICS(TOPIC_ID,TOPIC_NAME) values ('t12','topic 12')into HNI_TOPICS(TOPIC_ID,TOPIC_NAME) values ('t13','topic 13')into HNI_TOPICS(TOPIC_ID,TOPIC_NAME) values ('t14','topic 14') SELECT 1 FROM DUAL"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"insert all  SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all  SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all  SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all  SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all  SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all  SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all into HNI_TOPICS(TOPIC_NAME,TOPIC_ID) values ('test','4c07b188-c05e-4a7c-ac86-995accd34a3d') SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all  SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all into HNI_TOPICS(TOPIC_NAME,TOPIC_ID) values ('test','efb0da83-7816-4236-beda-4cb347850a6b') SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all  SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all into HNI_TOPICS(TOPIC_NAME,TOPIC_ID) values ('test','4e8985ed-db6a-4cd6-9ab5-ba2b00c78664') SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all  SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all  SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all into HNI_TOPICS(TOPIC_NAME,TOPIC_ID) values ('test','ab9a92d6-c78d-48ed-a713-634d798f205e') SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all into HNI_TOPICS (TOPIC_NAME,TOPIC_ID) values ('test1','84f2e805-d92e-4d2f-835f-d41c19d9d135') SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all  SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all  SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all into HNI_TOPICS (TOPIC_NAME,TOPIC_ID) values ('test2','470fb517-8e8d-4af2-a7fa-a0898e84ee02') SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all  SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all into HNI_TOPICS (TOPIC_NAME,TOPIC_ID) values ('testa','81df038f-ff21-4990-acf9-522dec7aa4eb')into HNI_TOPICS (TOPIC_NAME,TOPIC_ID) values ('testb','f8d6c1ee-4187-497b-9dc5-2ac24339a1b4')into HNI_TOPICS (TOPIC_NAME,TOPIC_ID) values ('testc','8e05b056-b9cd-4239-add6-caf9245ad989')into HNI_TOPICS (TOPIC_NAME,TOPIC_ID) values ('testd','2c1a933e-ddbf-4ad9-b6b6-00676a57954f')into HNI_TOPICS (TOPIC_NAME,TOPIC_ID) values ('teste','312497a5-1892-4ac6-8f47-0077d3f13b04') SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all  SELECT 1 FROM DUAL"}
+{"level":"info","message":"insert all  SELECT 1 FROM DUAL"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"insert all  SELECT 1 FROM DUAL"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"insert all  SELECT 1 FROM DUAL"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"insert all  SELECT 1 FROM DUAL"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"insert all  SELECT 1 FROM DUAL"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"insert all  SELECT 1 FROM DUAL"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"insert all into HNI_TOPICS (TOPIC_NAME,TOPIC_ID) values ('testz','51892658-2a5b-45d9-9a58-b18a0dbba16e') SELECT 1 FROM DUAL"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"UPDATE hni_topics\n            SET topic_name = undefined\n            WHERE topics_id = undefined"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"UPDATE hni_topics\n            SET topic_name = testzz\n            WHERE topics_id = 51892658-2a5b-45d9-9a58-b18a0dbba16e"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"UPDATE hni_topics\n            SET topic_name = 'testzz'\n            WHERE topics_id = '51892658-2a5b-45d9-9a58-b18a0dbba16e'"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"UPDATE hni_topics\n            SET topic_name = 'testzz'\n            WHERE topic_id = '51892658-2a5b-45d9-9a58-b18a0dbba16e'"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"DELETE from hni_topics\n            WHERE topic_id = '51892658-2a5b-45d9-9a58-b18a0dbba16e'"}
+{"level":"info","message":"select * from hni_topics"}
+{"level":"info","message":"\n                    SELECT\n                    r.rule_id,\n                    r.rule_name,\n                    r.rule_config\n                FROM\n                    hni_topics t\n                    INNER JOIN hni_topicrule tr ON t.topic_id = tr.topic_id\n                    INNER JOIN hni_rules r ON tr.rule_id = r.rule_id\n                WHERE\n                    t.topic_id = 't1'\n            "}
+{"level":"info","message":"\n                SELECT\n                r.resource_id,\n                r.resource_type,\n                r.resource_name,\n                r.resource_config\n            FROM\n                hni_topics t\n                INNER JOIN system.hni_topicresource tr ON t.topic_id = tr.topic_id\n                RIGHT JOIN system.hni_resources r ON tr.resource_id = r.resource_id\n            WHERE\n                t.topic_id = 't1'\n             "}
+{"level":"info","message":"\n                    SELECT\n                    r.rule_id,\n                    r.rule_name,\n                    r.rule_config\n                FROM\n                    hni_topics t\n                    INNER JOIN hni_topicrule tr ON t.topic_id = tr.topic_id\n                    INNER JOIN hni_rules r ON tr.rule_id = r.rule_id\n                WHERE\n                    t.topic_id = 't1'\n            "}
+{"level":"info","message":"\n                SELECT\n                r.resource_id,\n                r.resource_type,\n                r.resource_name,\n                r.resource_config\n            FROM\n                hni_topics t\n                INNER JOIN system.hni_topicresource tr ON t.topic_id = tr.topic_id\n                RIGHT JOIN system.hni_resources r ON tr.resource_id = r.resource_id\n            WHERE\n                t.topic_id = 't1'\n             "}
+{"level":"info","message":"\n                    SELECT\n                    r.rule_id,\n                    r.rule_name,\n                    r.rule_config\n                FROM\n                    hni_topics t\n                    INNER JOIN hni_topicrule tr ON t.topic_id = tr.topic_id\n                    INNER JOIN hni_rules r ON tr.rule_id = r.rule_id\n                WHERE\n                    t.topic_id = 't1'\n            "}
+{"level":"info","message":"\n                SELECT\n                r.resource_id,\n                r.resource_type,\n                r.resource_name,\n                r.resource_config\n            FROM\n                hni_topics t\n                INNER JOIN system.hni_topicresource tr ON t.topic_id = tr.topic_id\n                RIGHT JOIN system.hni_resources r ON tr.resource_id = r.resource_id\n            WHERE\n                t.topic_id = 't1'\n             "}
+{"level":"info","message":"\n                    SELECT\n                    r.rule_id,\n                    r.rule_name,\n                    r.rule_config\n                FROM\n                    hni_topics t\n                    INNER JOIN hni_topicrule tr ON t.topic_id = tr.topic_id\n                    INNER JOIN hni_rules r ON tr.rule_id = r.rule_id\n                WHERE\n                    t.topic_id = 't1'\n            "}
+{"level":"info","message":"\n                SELECT\n                r.resource_id,\n                r.resource_type,\n                r.resource_name,\n                r.resource_config\n            FROM\n                hni_topics t\n                INNER JOIN system.hni_topicresource tr ON t.topic_id = tr.topic_id\n                RIGHT JOIN system.hni_resources r ON tr.resource_id = r.resource_id\n            WHERE\n                t.topic_id = 't1'\n             "}
+{"level":"info","message":"\n                    SELECT\n                    r.rule_id,\n                    r.rule_name,\n                    r.rule_config\n                FROM\n                    hni_topics t\n                    INNER JOIN hni_topicrule tr ON t.topic_id = tr.topic_id\n                    INNER JOIN hni_rules r ON tr.rule_id = r.rule_id\n                WHERE\n                    t.topic_id = 't1'\n            "}
+{"level":"info","message":"\n                SELECT\n                r.resource_id,\n                r.resource_type,\n                r.resource_name,\n                r.resource_config\n            FROM\n                hni_topics t\n                INNER JOIN system.hni_topicresource tr ON t.topic_id = tr.topic_id\n                RIGHT JOIN system.hni_resources r ON tr.resource_id = r.resource_id\n            WHERE\n                t.topic_id = 't1'\n             "}
+{"level":"info","message":"\n                    SELECT\n                    r.rule_id,\n                    r.rule_name,\n                    r.rule_config\n                FROM\n                    hni_topics t\n                    INNER JOIN hni_topicrule tr ON t.topic_id = tr.topic_id\n                    INNER JOIN hni_rules r ON tr.rule_id = r.rule_id\n                WHERE\n                    t.topic_id = 't1'\n            "}
+{"level":"info","message":"\n                SELECT\n                r.resource_id,\n                r.resource_type,\n                r.resource_name,\n                r.resource_config\n            FROM\n                hni_topics t\n                INNER JOIN system.hni_topicresource tr ON t.topic_id = tr.topic_id\n                RIGHT JOIN system.hni_resources r ON tr.resource_id = r.resource_id\n            WHERE\n                t.topic_id = 't1'\n             "}
+{"level":"info","message":"\n                    SELECT\n                    r.rule_id,\n                    r.rule_name,\n                    r.rule_config\n                FROM\n                    hni_topics t\n                    INNER JOIN hni_topicrule tr ON t.topic_id = tr.topic_id\n                    INNER JOIN hni_rules r ON tr.rule_id = r.rule_id\n                WHERE\n                    t.topic_id = 't1'\n            "}
+{"level":"info","message":"\n            SELECT\n            r.resource_id,\n            r.resource_type,\n            r.resource_name,\n            r.resource_location,\n            r.resource_attr,\n            t.topic_id,\n            t.topic_name\n        FROM\n            system.hni_topics t\n            INNER JOIN system.hni_topicresource tr ON t.topic_id = tr.topic_id\n            LEFT JOIN system.hni_resources r ON tr.resource_id = r.resource_id\n            WHERE\n                t.topic_id = 't1'\n             "}
+{"level":"info","message":"\n                    SELECT\n                    r.rule_id,\n                    r.rule_name,\n                    r.rule_location,\n                    r.rule_version\n\n                FROM\n                    hni_topics t\n                    INNER JOIN hni_topicrule tr ON t.topic_id = tr.topic_id\n                    INNER JOIN hni_rules r ON tr.rule_id = r.rule_id\n                WHERE\n                    t.topic_id = 't1'\n            "}
+{"level":"info","message":"\n            SELECT\n            r.resource_id,\n            r.resource_type,\n            r.resource_name,\n            r.resource_location,\n            r.resource_attr,\n            t.topic_id,\n            t.topic_name\n        FROM\n            system.hni_topics t\n            INNER JOIN system.hni_topicresource tr ON t.topic_id = tr.topic_id\n            LEFT JOIN system.hni_resources r ON tr.resource_id = r.resource_id\n            WHERE\n                t.topic_id = 't1'\n             "}
+{"level":"info","message":"select * from HNI_TOPICS"}
+{"level":"info","message":"UPDATE HNI_TOPICS \n            SET topic_name = 'topic 1111'\n            WHERE  TOPIC_ID  = 't1'"}
+{"level":"info","message":"select * from HNI_TOPICS"}
+{"level":"info","message":"DELETE from HNI_TOPICS \n            WHERE  TOPIC_ID  = 't9'"}
+{"level":"info","message":"select * from HNI_TOPICS"}
+{"level":"info","message":"select * from HNI_GROUPS"}
+{"level":"info","message":"select * from HNI_TOPICS"}
+{"level":"info","message":"select * from HNI_RULES"}

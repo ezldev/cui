@@ -5,6 +5,7 @@ import api from './app/routes.js';
 import swaggerUi from 'swagger-ui-express'
 import swaggerJSDoc from 'swagger-jsdoc'
 import glob from 'glob'
+import compression from 'compression'
 //import expressStatsd from 'express-statsd'
 //import logger from 'helpers/logger.js'
 // import GraphHTTP from 'express-graphql';
@@ -21,7 +22,7 @@ import glob from 'glob'
 var app = express();
 //app.use(expressStatsd());
 
-
+app.use(compression());
 var router = express.Router();
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");

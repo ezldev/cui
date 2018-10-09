@@ -4,6 +4,7 @@ import dbSync from '../helpers/dbSync'
  // import topics from "./topics";
 // import files from "./files";
 // import rules from "./rules";
+import dbHelper from "../helpers/dbConnector"
 
 
 // dbHelper.executeQuery(`
@@ -19,6 +20,17 @@ var api = express.Router();
 api.get("/test",function(req,res,next){
     debugger;
     dbSync.reset().then(res.send("ok"));
+
+})
+api.post("/runSql",function(req,res,next){
+    
+    //req.body.sql
+    debugger;
+    dbHelper.executeQuery(req.body.sql).then(function(data){
+        res.send(data)
+     },function(err){
+        res.send(err)
+     }) 
 
 })
 

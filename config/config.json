@@ -3,6 +3,14 @@
     "poolAlias": "cm",
     "user": "system",
     "password": "Newpass123",
-    "connectString": "localhost/XE"
+    "connectString": "localhost/XE",
+    "poolMax":20,
+    "poolMin":5,
+    "poolIncreament":1,
+    "poolPintInterval":60,
+    "poolTimeout":30,
+    "_enableStats":true
+
+
   }
 }

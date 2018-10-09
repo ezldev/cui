@@ -7,7 +7,9 @@ import Promise from "promise"
 var env       = process.env.NODE_ENV || 'development';
 var config    = require(__dirname + '/../config/config.json')[env];
 var cmpool 
-
+var opts ={
+    autoCommit:true
+}
 
 
 
@@ -34,12 +36,27 @@ var cmpool
         return new Promise(function (resolve, reject) {
             cmpool.getConnection(function(err, conn) {
                 logger.log("info",sql )
-                conn.execute(sql).then(resolve, reject)
+              if(sql){
+                conn.execute(sql,{},opts).then(function(data){
+                    console.log(data)
+                
+                    resolve(data)
+                }, function(err){
+                    console.log(err)
+                    reject(err)
+                }).finally(function(){
+                    conn.close();
+                })
                 if(err){
+                    conn.close();
                     reject(err)
                 }
+            }else{
+                conn.close();
+                reject("No SQL")
+            }
 
-            });
+            })
         
         })
 
